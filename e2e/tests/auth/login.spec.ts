@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
   //await page.goto("/login");
 });
 
-test.skip("A - Login", async ({ page }) => {
+test("A - Login", async ({ page }) => {
   await loginPage.usernameInput.type("user");
 
   const userNameInput = page.getByTestId("username-input");

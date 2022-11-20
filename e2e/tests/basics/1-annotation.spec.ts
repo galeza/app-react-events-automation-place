@@ -64,6 +64,6 @@ test.describe("Test - group skip", () => {
 
 // est @tag
 
-test("test - tag @smoke", async () => {
+test("my first test - tag @smoke", async () => {
   console.log("test - tag @smoke");
 });
